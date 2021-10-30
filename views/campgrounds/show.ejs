@@ -42,7 +42,7 @@
             <div class="card-body">
                 <form action="/campgrounds/<%=campground._id%>?_method=DELETE" method="POST">
 
-                    <a href="/campgrounds/<%=campground._id%>/edit" class="card-link btn btn-info text-white">Edit
+                    <a href="/campgrounds/<%=campground._id%>/edit" class="card-link btn btn-info">Edit
                         Campground</a>
                     <button class="btn btn-danger mx-1">Delete Campground</button>
 
@@ -80,7 +80,7 @@
                             required></textarea>
                         <div class="valid-feedback">Looks good!</div>
                     </li>
-                    <li class="list-group-item"><button class="btn btn-success">Submit Review</button></li>
+                    <li class="list-group-item rounding"><button class="btn btn-success">Submit Review</button></li>
                 </ul>
             </div>
         </form>
@@ -106,9 +106,7 @@
                     <% if (currentUser && currentUser.equals(review.author._id)) { %>
                     <form action="/campgrounds/<%=campground._id%>/reviews/<%=review._id%>?_method=DELETE" method="POST"
                         class="pb-3">
-                        <a class="btn btn-outline-secondary btn-sm"
-                            href="/campgrounds/reviews/<%=review._id%>/edit">Edit Review</a>
-                        <button class="btn btn-outline-danger btn-sm">Delete Review</button>
+                        <button class="btn btn-danger btn-sm">Delete Review</button>
                     </form>
                     <% } %>
                 </li>

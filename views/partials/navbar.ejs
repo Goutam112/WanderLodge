@@ -12,8 +12,7 @@
                 <a class="nav-link" href="/campgrounds/new">Add Campground</a>
             </div>
             <div class="navbar-nav">
-                <% if (true) { %>
-                <!-- if (!currentUser) -->
+                <% if (!currentUser) { %>
                 <a href="/login" class="nav-link">Login</a>
                 <a href="/register" class="nav-link">Sign Up</a>
                 <% } else { %>

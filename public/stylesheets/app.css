@@ -1,6 +1,14 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+        url("https://res.cloudinary.com/dcf6kkgpj/image/upload/v1635567080/YelpCamp/website_background_b9xqxj.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 #map {
-    border: 2px white solid;
-    border-radius: 10px;
+    border: 5px whitesmoke solid;
+    border-radius: 15px;
     width: 100%;
     height: 250px;
 }
@@ -9,7 +17,7 @@
     width: 100%;
     height: 450px;
     border: 2px white solid;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 #show-carousel-imgs {
@@ -22,4 +30,71 @@
     width: 100%;
     height: 37.5vh;
     object-fit: cover
+}
+
+.btn {
+    border-radius: 12px;
+    padding: 8px 15px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.btn:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* ========== INDEX STYLES ============ */
+
+h1.mb-3 {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.card {
+    border-radius: 20px;
+    margin-bottom: 50px;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(5px);
+}
+
+#index-imgs {
+    border-radius: 20px 0 0 20px;
+}
+
+
+
+/* ========== SHOW STYLES ========== */
+
+#campgroundCarousel img {
+    border-radius: 20px 20px 0 0;
+}
+
+.list-group-item.pt-3:last-child {
+    border-radius: 0 0 20px 20px;
+}
+
+.list-group-item.rounding {
+    border-radius: 0 0 20px 20px;
+}
+
+
+/* ========== NEW/EDIT STYLES ========== */
+
+h1.text-center {
+    color: rgba(255, 255, 255, 0.6)
+}
+
+label.form-label {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+/* ========== REGISTER/LOGIN STYLES ========== */
+
+img.user.card-img-top {
+    border-radius: 20px 20px 0 0;
+}
+
+.user.form-label {
+    color: grey;
+    font-size: 14px;
 }
