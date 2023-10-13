@@ -1,48 +1,45 @@
 body {
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("https://res.cloudinary.com/dcf6kkgpj/image/upload/v1635566395/YelpCamp/background_home_hjxnwk.jpg");
-    background-size: cover;
-    background-position: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://res.cloudinary.com/dcf6kkgpj/image/upload/v1635566395/YelpCamp/background_home_hjxnwk.jpg");
+  background-size: cover;
+  background-position: center;
 
-    text-shadow: 0 0.05rem 0.2rem #00000080;
-    box-shadow: inset 0 0 10rem rgba(0, 0, 0, 0.5);
-}
-
-.cover-container {
-    max-width: 60vw;
+  text-shadow: 0 0.05rem 0.2rem black;
+  box-shadow: inset 0 0 10rem rgba(0, 0, 0, 0.5);
 }
 
 .nav-link {
-    padding: 0.25rem 0;
-    font-weight: 500;
-    color: rgba(255, 255, 255, 0.5);
-    margin-left: 1rem;
-    border-bottom: 0.2rem solid transparent;
+  padding: 0.25rem 0;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 1rem;
+  border-bottom: 0.2rem solid transparent;
 }
 
 .nav-link:hover {
-    color: rgba(255, 255, 255, 0.5);
-    border-bottom-color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom-color: rgba(255, 255, 255, 0.5);
 }
 
 .nav-link.active {
-    color: white;
-    border-bottom-color: white;
+  color: white;
+  border-bottom-color: white;
 
 }
 
 .btn {
-    color: white;
-    background: rgba(255, 255, 255, 0.2);
-    margin-top: 1rem;
-    border: 1px solid white;
-    border-radius: 2rem;
-    padding: 0.8rem 1.2rem;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  margin-top: 1rem;
+  border: 1px solid white;
+  border-radius: 2rem;
+  padding: 0.8rem 1.2rem;
 
 }
 
 .btn:hover {
-    color: white;
-    background: rgba(14, 147, 209, 0.3);
+  color: white;
+  background: rgba(218, 187, 158, 0.5);
 }
