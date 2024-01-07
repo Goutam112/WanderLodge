@@ -1,4 +1,4 @@
-# YelpCamp
+# WanderLodge
 
 Capstone Project: a Fullstack website I made for campsites (inspired by Yelp)
 
